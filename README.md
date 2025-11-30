@@ -1,66 +1,52 @@
-<h1 align="center">🌐 Network Master - V 0.1</h1>
-<p align="center">
-  <b>Advanced GUI Network Toolkit</b> • <b>ابزار گرافیکی پیشرفته مدیریت شبکه</b><br>
-  <i>Built with Python & Tkinter • توسعه یافته با پایتون و Tkinter</i>
-</p>
+# 🌐 Network Monitoring Tool
 
-<p align="center">
-  <a href="#features">⚙️ Features | ویژگی‌ها</a> •
-  <a href="#installation--نصب">📦 Installation | نصب</a> •
-  <a href="#usage--نحوه-اجرا">🚀 Usage | نحوه اجرا</a> •
-  <a href="#license--مجوز">🛡 License | مجوز</a>
-</p>
+**Advanced GUI Network Toolkit**
+
+A powerful network management and monitoring tool built with Python and Tkinter. Provides real-time insights, device scanning, speed tests, DNS utilities, and more—all in a user-friendly graphical interface.
 
 ---
 
-## ⚙️ Features | ویژگی‌ها
+## ⚙️ Features
 
-| 🌐 English Features                    | 🇮🇷 امکانات فارسی                           |
-|----------------------------------------|---------------------------------------------|
-| View public & local IP info            | مشاهده IP عمومی و محلی                      |
-| Ping test and port scanner             | تست پینگ و اسکن پورت                       |
-| DNS Lookup and DNS Leak test          | بررسی DNS و نشتی DNS                        |
-| Speed test (Download, Upload, Ping)    | تست سرعت اینترنت (دانلود، آپلود، پینگ)    |
-| Scan connected devices on network      | اسکن دستگاه‌های متصل به شبکه                |
-| IP Geolocation with interactive map    | موقعیت‌یابی IP روی نقشه تعاملی             |
-| Real-time traffic chart & dashboard    | نمودار زنده ترافیک و داشبورد شبکه         |
-| Security scan overview                 | بررسی امنیتی و نمایش گزارش اولیه           |
+- View public & local IP information
+- Ping test and port scanner
+- DNS lookup and DNS leak test
+- Internet speed test (download, upload, ping)
+- Scan connected devices on your network
+- Real-time traffic chart and dashboard
+- Security scan overview
 
 ---
 
-## 📦 Installation | نصب
+## 📦 Installation
 
-> Requires Python 3.8+
+**Requirements:** Python 3.8+
 
-1. Clone this repo:
-```bash
-git clone https://github.com/SaeedForouzandeh/Network-Master.git
-cd network-master
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/SaeedForouzandeh/Network-Master.git
+   cd Network-Master
+   ```
+2. Install dependencies:
+   ```bash
+   pip install requests psutil speedtest-cli python-whois dnspython pillow matplotlib colorama tk
+   ```
 
-```
+---
 
-## Install required packages:
-
-```bash
-pip install requests psutil speedtest-cli python-whois dnspython Pillow matplotlib geopy folium
-pip install requests psutil speedtest-cli python-whois dnspython matplotlib pillow geopy folium tk
-pip install requests colorama psutil dnspython
-```
-
-
---- 
 ## 🚀 Usage
 
-Simply run the main script:
-
+Run the main application:
 ```bash
-python NetworkMaster.py
+python main.py
 ```
+
 ---
 
-## 🛡 License | مجوز
+## 🛡 License
+
 This project is licensed under the MIT License.
-این پروژه تحت مجوز MIT منتشر شده و استفاده، تغییر و انتشار آن آزاد است.
 
 ---
-<p align="center"><b>Made with ❤️ in Python | ساخته شده با ❤️ به کمک پایتون</b></p> 
+
+**Made with ❤️ in Python**
